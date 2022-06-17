@@ -21,22 +21,19 @@ To get started with Ionic, follow the **Environment Setup** and **CLI Installati
 
 Once installed, clone this repo locally and launch the app using the `ionic serve` command.
 
-## Activity guidelines ##
+## Activity completion ##
 
-Once up and running, explore the app and complete as many of the following tasks as you wish:
 
-1. On the **Team Profile** page the second number under ***Businesses** is incorrectly displaying the number of businesses, not the number of partner licenses as expected. Update the page to display the `licenses` field from the `partner` object. The result should be `3/70`.
-2. The **Team Profile** does not currently display neatly on a mobile screen size. Update the layout to be responsive to a mobile screen.
-3. The **Home** and **Groups** pages list all businesses and groups respectively. Create a new page that accepts the id of a business or group and displays just those details. Feel free to add to the business or group objects if you'd like more data to work with.
+
+1. On the **Team Profile** page the second number under ***Businesses** is incorrectly displaying the number of businesses, not the number of partner licenses as expected. Update the page to display the `licenses` field from the `partner` object. The result should be `3/70`.- completed.
+2. The **Team Profile** does not currently display neatly on a mobile screen size. Update the layout to be responsive to a mobile screen. completed.
+3. The **Home** and **Groups** pages list all businesses and groups respectively. Create a new page that accepts the id of a business or group and displays just those details. Feel free to add to the business or group objects if you'd like more data to work with. half completed still have issues
 4. Update the **Home** or **Groups** page to allow a user to navigate to your new **business-profile** or **group-profile** page.
-5. The **not-found** page is currently blank. Help users feel less lost when they encounter the page by adding whatever you feel like to it. Something playful is always welcome.
+5. The **not-found** page is currently blank. Help users feel less lost when they encounter the page by adding whatever you feel like to it. Something playful is always welcome.completed
 
-Don't spend too long on this activity. If you find yourself stuck or spending too long on something, move on and simply let us know.
 
 ### Submitting ###
 
-Once you've completed as many tasks as you're comfortable with, please upload your code to a Github or Bitbucket repo and share the location with your primary Cynch contact.
-
-## Getting help? ##
+I have completed 3.5/5 tasks as I was comfortable with, also I have learned angular, ionic and version controls more in details while doing this activity
 
 If you have questions or issues, reach out to your primary Cynch contact or email the HR team at joinus@cynch.com.au
