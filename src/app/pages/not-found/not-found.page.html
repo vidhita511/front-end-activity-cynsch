@@ -1,0 +1,19 @@
+<ion-header class="global-header-unhide" [translucent]="true">
+	<ion-toolbar class="global-menu-toolbar">
+		<ion-buttons slot="start">
+			<ion-title>
+				ERROR!!
+			</ion-title>
+			<ion-menu-button></ion-menu-button>
+
+      <ion-back-button defaultHref="/home"></ion-back-button>
+		</ion-buttons>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+       <h2>404 Page Not Found!!</h2>
+	   <p>This page isn't available, Sorry about that.</p>
+	   <img src="assets/imgs/404.gif">
+	   <p [innerHTML] ="message"></p>
+</ion-content>

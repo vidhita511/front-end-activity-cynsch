@@ -1,0 +1,26 @@
+<ion-header class="global-header-unhide" [translucent]="true">
+	<ion-toolbar class="global-menu-toolbar">
+		<ion-buttons slot="start">
+			<ion-title>
+			Business-Profile
+			</ion-title>
+			<ion-menu-button></ion-menu-button>
+
+      <ion-back-button defaultHref="/home"></ion-back-button>
+		</ion-buttons>
+	</ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+	  <h1><ion-icon name="albums-outline"></ion-icon> Groups</h1>  
+<ng-container *ngIf="!businesses">
+    <p *ngFor="let i of [].constructor(5); let i=index;">
+      {{ businesses?.id || '-' }} - {{businesses?.access || '' }} - {{businesses?.fitnessPercentage || '' }} - {{businesses?.daysAgo || '' }} - {{businesses?.name || '' }}
+      <ion-button ion-button (click)="hide()">Display</ion-button>
+      <ion-card *ngIf="hideMe">
+        <ion-card-header>
+          <ion-card-title>Business-Profile for Id {{ businesses?.id || '-' }} </ion-card-title>
+        </ion-card-header>
+      </ion-card>
+    </p>
+  </ng-container> 
+  </ion-content>

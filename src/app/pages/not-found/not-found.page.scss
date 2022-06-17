@@ -1,0 +1,27 @@
+ion-card {
+    display: flex;
+    flex-direction: column;
+    height: 95% !important;
+    margin-bottom: 5px !important;
+}
+
+img {
+    border-radius: 5px;
+    transition: step-start;
+}
+
+p {
+    color: #292727b9;
+    text-align:left;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+h2{
+    color:black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    
+}
